@@ -54,9 +54,9 @@ try {
     <link rel="stylesheet" href="css/style.css">
     <style>
 /* General Styling */
-h1, h2 {
+h1, h2,h3 {
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #275360;
     text-align: center;
 }
 
@@ -72,7 +72,6 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 15px;
-    border-bottom: 3px solid #ff9800;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -81,10 +80,37 @@ h2 {
 p {
     font-family: 'Arial', sans-serif;
     font-size: 1rem;
-    color: #555;
+    color: #275360;
     line-height: 1.6;
     margin-bottom: 10px;
 }
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Table Header */
+table tr {
+    background-color: #275360; /* Change this color to your preference */
+    color: white; /* Ensure text is readable */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Rows */
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
 </style>
 
 </head>
@@ -100,8 +126,9 @@ p {
             <li><a href="models.php">Models</a></li>
             <li><a href="about.php">About Us</a></li>
             <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="profile.php">Profile</a></li>
         </ul>
-        <button class="btn signup-btn"><a href="Home.php">Log Out</a></button>
+        <button class="btn signup-btn"><a href="dashboard.php">Log Out</a></button>
         <button class="hamburger-btn" onclick="toggleNavbar()">☰</button>
     </nav>
 </header>

@@ -131,3 +131,30 @@ footer {
     color: white;
     text-align: center;
 }
+
+.analytics-dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stat-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 20%;
+}
+
+.stat-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.stat-box p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #275360;
+}
+
